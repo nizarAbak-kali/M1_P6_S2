@@ -1,0 +1,32 @@
+liens :
+
+https://github.com/cparker15/csv-to-json?files=1
+
+Prerequisites:
+
+    Node + NPM :
+sudo apt-get update
+sudo apt-get install nodejs npm
+    
+    Bower :
+sudo chown -R $USER /usr/local
+npm install -g bower
+(liens utiles si pb : http://www.codediesel.com/javascript/installing-bower-on-ubuntu-14-04-lts/)
+    Grunt CLI : 
+npm install -g grunt-cli
+
+puis cloner le projet 
+$ cd
+$ git clone https://github.com/cparker15/csv-to-json.git
+
+ce placer dans le dossier du projet 
+
+et faire un grunt
+$ grunt 
+
+si bogue == "/usr/bin/env: node: No such file or directory" :
+	alors :
+		sudo ln -s /usr/bin/nodejs /usr/bin/node	
+
+
+enfin le convertisseur se trouve dans le dist "index.html"

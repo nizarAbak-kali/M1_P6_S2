@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20 juin 2015, 13:14:49
+    Author     : nizar
+*/
+
+#affichage{
+    width:400 px;
+    height:400 px;
+    margin:3px;
+    float:left;
+    border:2px solid rgb(100,100,100);
+    border-radius:10px;
+    background-color:rgb(255,255,255);
+    box-shadow: 4px 4px 3px rgb(150,150,150);
+    background-repeat: no-repeat;
+}
+
+.bouton a{
+     display:block;
+     width:150px;
+    margin:3px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(http://css.mammouthland.net/images/boutonnoir.png) no-repeat;
+    color:white;
+    text-decoration:none;
+}
+.bouton a:hover{
+    background:url(http://css.mammouthland.net/images/boutonnoir2.png) no-repeat;
+}

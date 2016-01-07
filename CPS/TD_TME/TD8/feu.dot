@@ -1,0 +1,24 @@
+digraph p_feu {
+size="8,10";
+  GT [shape=box,style=dotted,label="feu"];
+  GT -> S1;
+	S1 -> S2  [color=black,style=solid,label="couleur = ORANGE"];
+	S2 -> S8  [color=black,style=solid,label="clignotant = 1"];
+	S8 -> S10  [color=black,style=solid,label="(1)"];
+	S8 -> S1  [color=black,style=solid,label="(1)"];
+	S10 -> S17  [color=black,style=solid,label="couleur = ROUGE"];
+	S17 -> S19  [color=black,style=solid,label="(1)"];
+	S17 -> S10  [color=black,style=solid,label="(1)"];
+	S17 -> S37  [color=black,style=solid,label="(1)"];
+	S19 -> S26  [color=black,style=solid,label="couleur = VERT"];
+	S26 -> S28  [color=black,style=solid,label="(1)"];
+	S26 -> S19  [color=black,style=solid,label="(1)"];
+	S26 -> S37  [color=black,style=solid,label="(1)"];
+	S28 -> S35  [color=black,style=solid,label="couleur = ORANGE"];
+	S35 -> S10  [color=black,style=solid,label="(1)"];
+	S35 -> S28  [color=black,style=solid,label="(1)"];
+	S35 -> S37  [color=black,style=solid,label="(1)"];
+	S37 -> S38  [color=black,style=solid,label="clignotant = 1"];
+	S38 -> S41  [color=black,style=solid,label="couleur = ORANGE"];
+	S41 -> S38  [color=black,style=solid,label="(1)"];
+}

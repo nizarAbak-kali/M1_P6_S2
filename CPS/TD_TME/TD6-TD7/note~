@@ -1,0 +1,24 @@
+ TD6 - TD 7
+============
+:Author: ABAK-KALI Nizar
+:Email: nizarabakkali93@gmail.com
+:Date:
+
+TD de  composant logique hoare sur les boucles 
+
+== Exo 3 :Des  contrats aux preuves :
+
+.prog 1:
+
+----
+[source,C]
+{var a ;
+     a=x;
+     y=0;
+     while(a!=0){
+	y=y+1;
+	a=a+&;
+     }
+}
+----  
+    
